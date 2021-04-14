@@ -45,7 +45,7 @@ GameState::GameState(sf::RenderWindow* target, std::stack<State*>* states)
 	this->text.setFont(this->font);
 	this->text.setString("Score: " + std::to_string(this->score));
 
-
+	this->ResetGame();
 }
 
 //////////////////////////////
@@ -300,6 +300,15 @@ void GameState::NPCThink()
 	float infoY = this->ply->getPosition().y;
 	for (auto& n : this->npcs)
 	{
+
+		if ( n.getGlobalBounds().intersects(this->ply->getGlobalBounds()))
+		{
+			this->m_sprite = new animatedSprite(this->ply->getPosition().x, this->ply->getPosition().y, 3.f, 2.5f);
+			this->m_sprites.push_back(*this->m_sprite);
+			this->ResetGame();
+			break;
+		}
+
 		if (n.getPosition().x < infoX)
 		{
 			n.MoveTo(n.GetSpeed(), 0.f);
@@ -343,6 +352,8 @@ void GameState::ProjectileThink()
 	{
 		if (this->projectiles[i]->canHurt && this->projectiles[i]->getGlobalBounds().intersects(this->ply->getGlobalBounds()))
 		{
+			this->m_sprite = new animatedSprite(this->ply->getPosition().x, this->ply->getPosition().y, 3.f, 2.5f);
+			this->m_sprites.push_back(*this->m_sprite);
 			this->ResetGame();
 			break;
 		}
@@ -386,7 +397,6 @@ void GameState::ProjectileThink()
 			{
 				if (this->projectiles[i]->getGlobalBounds().intersects(npcs[ii].getGlobalBounds()))
 				{
-
 					this->projectiles[i]->OnDeath();
 					npcs[ii].TakeDamage(this->projectiles[i]->GetDamage());
 					this->projectiles.erase(this->projectiles.begin() + i);
