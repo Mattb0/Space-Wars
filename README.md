@@ -15,11 +15,11 @@ Simple button class
 
 Player class
 
+NPC class
+
 State machines
 
 Game engine
-
-NPCS
 
 Projectiles and base classes variants
 
