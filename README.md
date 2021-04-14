@@ -21,8 +21,8 @@ State machines
 
 Game engine
 
-Projectiles and base classes variants
+Gameplay loop
 
-Sprite handler classes
+Projectiles and base classes variants
 
 Score system with scaling difficulty
