@@ -1,7 +1,7 @@
 # Space-Wars
 A rogue-like space shooter made purely in C++. 
 
-An attempt was made to capture the old feeling of 'Space Wars', but with a new look and gameplay
+An attempt was made to capture the old feeling of 'SpaceWar', but with a new look and gameplay
 
 Uses SFML's graphics library and requires SFML 2.5.1+
 
