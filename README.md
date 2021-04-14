@@ -26,3 +26,14 @@ Gameplay loop
 Projectiles and base classes variants
 
 Score system with scaling difficulty
+
+
+# Controls
+
+WASD - movement
+
+Space - Primary weapon
+
+LShift - Secondary weapon
+
+ESC - Main menu
