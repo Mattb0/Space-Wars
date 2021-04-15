@@ -1,5 +1,5 @@
 # Space-Wars
-A 2D shoot 'em up game inspired by 'Spacewar! written purely in C++.
+A 2D shoot 'em up game inspired by 'Spacewar!. Written purely in C++.
 
 An attempt was made to capture the old feeling of 'SpaceWar', but with a new look and gameplay
 
