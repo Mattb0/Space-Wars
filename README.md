@@ -1,11 +1,13 @@
 # Space-Wars
-A rogue-like space shooter made purely in C++. 
+A 2D shoot 'em up game inspired by 'Spacewar! written purely in C++.
 
 An attempt was made to capture the old feeling of 'SpaceWar', but with a new look and gameplay
 
-Uses SFML's graphics library and requires SFML 2.5.1+
-
 The project took roughly 5 days
+
+# Requirements:
+
+Uses SFML's graphics library and requires SFML 2.5.1+
 
 # Key features:
 
