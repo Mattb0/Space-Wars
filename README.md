@@ -10,7 +10,7 @@ The project took roughly 5 days to make.
 
 # Requirements:
 
-Uses SFML's graphics library and requires SFML 2.5.1+
+Uses SFML's graphics library and requires [SFML 2.5.1](https://www.sfml-dev.org/download/sfml/2.5.1/)
 
 # Key features:
 
