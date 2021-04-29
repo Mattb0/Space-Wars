@@ -1,11 +1,12 @@
 # Space-Wars
 A 2D shoot 'em up game inspired by 'Spacewar!. Written purely in C++.
 
+Compiled executable file can be downloaded and played from the releases.
+
 An attempt was made to capture the old feeling of 'SpaceWar', but with a new look and gameplay
 
 The project took roughly 5 days to make.
 
-#Game can be downloaded and played from the releases
 
 # Requirements:
 
