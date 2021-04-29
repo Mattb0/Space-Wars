@@ -1,7 +1,7 @@
 # Space-Wars
 A 2D shoot 'em up game inspired by 'Spacewar!. Written purely in C++.
 
-Compiled executable file can be downloaded from the releases [releases page](https://github.com/Mattb0/Space-Wars/releases).
+Compiled executable file can be downloaded from the [releases page](https://github.com/Mattb0/Space-Wars/releases).
 
 An attempt was made to capture the old feeling of 'SpaceWar', but with a new look and gameplay
 
