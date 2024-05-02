@@ -36,10 +36,19 @@ The engine initializes critical components of the game such as the window, varia
 
 The application offers a responsive control scheme designed to be simple yet effective, catering to both novice and experienced users.
 
-- **Movement:** Users navigate their spacecraft (Player Class) using the 'WASD' keys. 'W' moves the ship forward, 'S' moves it backward, 'A' steers it left, and 'D' steers it right, allowing for smooth and agile movements.
-- **Primary Weapon:** The 'Space' key fires the primary weapon, ensuring quick and seamless interaction during gameplay.
-- **Secondary Weapon:** The 'Left Shift' key activates the secondary weapon, providing an alternative attack mode to enhance the gameplay dynamics.
-- **Menu Access:** Pressing the 'Escape' key allows players to access the main menu, enabling them to pause the game or adjust settings as needed.
+- **Movement:** Users navigate their spacecraft (Player Class) using the 'WASD' keys:
+  - `W` moves the ship forward.
+  - `S` moves it backward.
+  - `A` steers it left.
+  - `D` steers it right.
+  
+  This setup allows for smooth and agile movements.
+  
+- **Primary Weapon:** Press the `Space` key to fire the primary weapon, ensuring quick and seamless interaction during gameplay.
+
+- **Secondary Weapon:** Activate the secondary weapon by pressing the `Left Shift` key. This provides an alternative attack mode to enhance the gameplay dynamics.
+
+- **Menu Access:** Pressing the `Escape` key allows players to access the main menu, enabling them to pause the game or adjust settings as needed.
 
 ## Additional Resources
 
