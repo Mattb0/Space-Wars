@@ -4,7 +4,7 @@
 
 "Space-Wars" is a dynamic 2D game inspired by the classic title 'Spacewar!' developed in 1962. This project pays homage to the golden age of video games by skillfully fusing vintage components with cutting-edge game production methodologies. This technical documentation has been created to provide a thorough overview of the title by exploring its architecture and creative methods used during production.
 
-## Key Features
+# Technical Overview
 
 ### Main Menu
 
